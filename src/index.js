@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { app, BrowserWindow, shell, session } = require('electron');
 const windowStateKeeper = require('electron-window-state');
 const { FB } = require('fb');
